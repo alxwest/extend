@@ -15,7 +15,7 @@
  * @return {Function}
  *      Modified child class.
  */
-export declare function extend(SubClass: Function, ParentClass: Function): Function;
+export default function extend(SubClass: Function, ParentClass: Function): Function;
 /**
  * Test whether the specified class is inherited from another.
  *
