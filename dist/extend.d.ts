@@ -29,6 +29,6 @@ export default function extend(SubClass: Function, ParentClass: Function): Funct
  * @author Denis Sikuler
  * @see suifw#extend
  */
-export declare module extend {
+declare module "extend" {
       function isSubclass(subClass: Function, parentClass: Function): Boolean;
 }
